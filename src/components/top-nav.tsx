@@ -23,6 +23,9 @@ function TopNav() : React.JSX.Element {
                             href={Urls.SignUp}>
                             Sign Up
                         </Nav.Link>
+                        <Nav.Link as={Link} to={Urls.HowItWorks}>
+                            How it works
+                        </Nav.Link>
                         <Nav.Link as={Link} to={Urls.Code}>
                             Code of Conduct
                         </Nav.Link>

@@ -14,6 +14,7 @@ import Home from './pages/home';
 import CodeOfConduct from './pages/code-of-conduct';
 import { Urls } from './helper';
 import PrivacyPolicy from './pages/privacy';
+import HowItWorks from './pages/how-it-works';
 
 //Create router
 const router = createBrowserRouter([
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
     {
       path: Urls.Privacy,
       element: <PrivacyPolicy />
+    },
+    {
+      path: Urls.HowItWorks,
+      element: <HowItWorks />
     }
   ]
   },

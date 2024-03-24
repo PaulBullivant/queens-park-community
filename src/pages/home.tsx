@@ -3,26 +3,32 @@ import { Button, Col, Row } from 'react-bootstrap';
 import Section from '../components/section';
 import { Urls } from '../helper';
 import { Link } from 'react-router-dom';
+import WhoCanJoinSection from '../sections/who-can-join';
 
 export default function Home(): React.JSX.Element {
 
     return (
         <>
             <Section title="Welcome">
-                This site is for members of the Queens Park, Bournemouth community What's App group.
+                This site is for members of the Queens Park, Bournemouth What's App Community.
             </Section>
 
             <Section title="About Us">
                 <p>
-                    This group has been created to enable residents of Queens Park, Bournemouth to be able to communicate freely and easily about
+                    This community has been created to enable residents of Queens Park, Bournemouth to be able to communicate freely and easily about
                     anything related to their community.
                 </p>
-                <p>
+                
+                {/* <p>
+                    The What's App community has been broken down into a number of topic focussed groups including
+                    <ul>
+                        <li></li>
+                    </ul>
                     Topics can include Community Events, Security, Lost &amp; Found, Neighbourhood Planning or any other community focussed talk.
-                </p>
+                </p> */}
+                
                 <p>
-                    Anyone living in the Queens Park area (see map below) can <a href={Urls.SignUp} target="_blank" rel="noreferrer">Sign Up</a> to
-                    join the What's App Group.  We only ask that you respect each other and adhere to our <Link to="code">code of conduct</Link>.
+                    <Button target='_blank' rel="noreferrer" href={Urls.HowItWorks} variant='primary' size='sm'>How it works</Button>
                 </p>
             </Section>
 
@@ -54,18 +60,8 @@ export default function Home(): React.JSX.Element {
                 </Col>
             </Row>
 
-            <Section title="Who can join">
-
-                <p>
-                    Anyone living in the area indicated by the <span style={{ color: 'red' }}>red line</span> below
-                    can <a href={Urls.SignUp} target="_blank" rel="noreferrer">sign up</a>.
-                </p>
-
-                <p style={{ textAlign: 'center' }}>
-                    <img src="map.png" style={{ maxWidth: '100%' }} alt="Map" />
-                </p>
-
-            </Section>
+            <WhoCanJoinSection />
+            
         </>
     );
 }

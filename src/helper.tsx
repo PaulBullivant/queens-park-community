@@ -4,4 +4,7 @@ export class Urls {
     public static  GitHub = 'https://github.com/PaulBullivant/queens-park-community';
     public static  Code = 'code';
     public static  Privacy = 'privacy';
+    public static  HowItWorks = 'how-it-works';
+    public static  WhatsAppCommunities = 'https://faq.whatsapp.com/495856382464992';
+    public static WhatsApp = 'https://www.whatsapp.com/';
 }
