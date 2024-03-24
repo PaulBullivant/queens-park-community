@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button, Col, Row } from 'react-bootstrap';
 import Section from '../components/section';
 import { Urls } from '../helper';
 import { Link } from 'react-router-dom';
