@@ -1,7 +1,6 @@
 import React from 'react';
 import Section from '../components/section';
 import { Urls } from '../helper';
-import { Link } from 'react-router-dom';
 
 export default function CodeOfConduct() : React.JSX.Element {
 
