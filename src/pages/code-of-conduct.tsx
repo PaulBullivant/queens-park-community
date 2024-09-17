@@ -55,8 +55,6 @@ export default function CodeOfConduct() : React.JSX.Element {
                     <li>Other conduct which could reasonably be considered inappropriate in a
                     professional setting</li>
 
-                    <li>Contacting members via private message or call without being invited to do so</li>
-
                     <li>Harassing or other offensive behaviours via call, private message or other communication methods, as determined by the admins</li>
 
                 </ul>
