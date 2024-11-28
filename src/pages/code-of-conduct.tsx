@@ -2,7 +2,7 @@ import React from 'react';
 import Section from '../components/section';
 import { Urls } from '../helper';
 
-export default function CodeOfConduct() : React.JSX.Element {
+export default function CodeOfConduct(): React.JSX.Element {
 
     return (
         <>
@@ -15,10 +15,28 @@ export default function CodeOfConduct() : React.JSX.Element {
             </Section>
 
             <Section title="Community Groups">
-                <p>Our community is made up of a number of  <a href={Urls.HowItWorks}>topic focused groups</a> that members can join and leave as desired.</p>
+                <p>
+                    Our community is made up of a number of  <a href={Urls.HowItWorks}>Queens Park topic focused groups</a> that members can join and leave as desired.
+                </p>
 
-                <p>Community members are asked to keep comments relevant to the topic of the group in which they are commenting.
-                    This ensures everyone in the group gets a positive and useful experience.</p>
+                <p>
+                    Community members are asked to keep comments relevant to the topic of the group in which they are commenting.
+                    This ensures everyone in the group gets a positive and useful experience.
+                </p>
+
+                <p>
+                    Any content that is in the wrong group or is not directly related to the community may be deleted by a
+                    Community Administrator without notice.
+                </p>
+
+                <p>
+                    For example, posting about national politics, govenment, conspiracy theories etc are not directly about the Queens Park Community
+                    and will be deleted.
+                </p>
+                <p>
+                    Just becauase a topic is urgent or important to you, does not mean you can spam everyone in the General group for whom the posting may not be
+                    important or urgent at all.  Posting spam causes people to leave the group which is not in anyone's interest.
+                </p>
             </Section>
 
             <Section title="Our Standards">
@@ -37,39 +55,39 @@ export default function CodeOfConduct() : React.JSX.Element {
 
                 <ul>
                     <li>The use of sexualized language or imagery, and sexual attention or
-                    advances of any kind</li>
+                        advances of any kind</li>
 
                     <li>The use of racist language or imagery</li>
 
                     <li>The use of language referencing in a negative, insulting or derogatory manner a person or a group of people due to age,
                         body size visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, education,
-                         socio-economic status, nationality, personal appearance, race, religion or sexual identity and orientation.</li>
+                        socio-economic status, nationality, personal appearance, race, religion or sexual identity and orientation.</li>
 
                     <li>Trolling, insulting or derogatory comments, and personal or political attacks</li>
 
                     <li>Public or private harassment including name and shame</li>
 
                     <li>Publishing others&rsquo; private information, such as a physical/email
-                    address or photo, without their explicit permission</li>
+                        address or photo, without their explicit permission</li>
 
                     <li>Other conduct which could reasonably be considered inappropriate in a
-                    professional setting</li>
+                        professional setting</li>
 
                     <li>Harassing or other offensive behaviours via call, private message or other communication methods, as determined by the admins</li>
 
                 </ul>
 
             </Section>
-                
+
             <Section title="Enforcement Responsibilities">
                 <p>Community administrators are responsible for clarifying and enforcing our standards of acceptable behaviour and will take appropriate and fair corrective action in response to any
-                   behavior that they deem inappropriate, threatening, offensive, or harmful.</p>
+                    behavior that they deem inappropriate, threatening, offensive, or harmful.</p>
 
                 <p>Community administrators have the right to remove comments and other contributions that are not aligned to this Code of Conduct, and
                     will communicate reasons for moderation decisions when appropriate.</p>
 
                 <p>Community administrators are volunteers living within our community and do not monitor all comments and contributions to the community chat groups. All community members share
-                   responsibility to flag up inappropriate content as defined by this Code of Conduct to the administrators for review, decision and action.</p>
+                    responsibility to flag up inappropriate content as defined by this Code of Conduct to the administrators for review, decision and action.</p>
             </Section>
 
             <Section title="Scope">
@@ -83,9 +101,9 @@ export default function CodeOfConduct() : React.JSX.Element {
                     Instances of abusive, harassing, or otherwise unacceptable behaviour may be reported for enforcement
                     by contacting an administrtor of the community.
                 </p>
-                <p> 
-                      All complaints will be reviewed and investigated promptly and fairly
-                      and the complainant will be notified of the outcome and actions taken by the administrators of the community.
+                <p>
+                    All complaints will be reviewed and investigated promptly and fairly
+                    and the complainant will be notified of the outcome and actions taken by the administrators of the community.
                 </p>
                 <p>
                     All community leaders are obligated to respect the privacy and security of the reporter of any incident.
@@ -94,8 +112,8 @@ export default function CodeOfConduct() : React.JSX.Element {
             <Section title="Enforcement Guidelines">
 
                 <p>
-                    If a member of the community posts into any group any message which falls into the category of unacceptable behaviours listed above then the Adminstrators of the community may at their discretion:  
-                    
+                    If a member of the community posts into any group any message which falls into the category of unacceptable behaviours listed above then the Adminstrators of the community may at their discretion:
+
                     <ul>
                         <li>Require a post to be removed</li>
                         <li>Remove a post without notice</li>
@@ -111,7 +129,7 @@ export default function CodeOfConduct() : React.JSX.Element {
             </Section>
             <Section title="Attribution">
                 <p>This Code of Conduct is adapted from the <a href="https://www.contributor-covenant.org">Contributor Covenant</a>, version 2.0,
-                available at <a href='https://www.contributor-covenant.org/version/2/0/code_of_conduct'>https://www.contributor-covenant.org/version/2/0/code_of_conduct.html</a>.</p>
+                    available at <a href='https://www.contributor-covenant.org/version/2/0/code_of_conduct'>https://www.contributor-covenant.org/version/2/0/code_of_conduct.html</a>.</p>
             </Section>
         </>
     );

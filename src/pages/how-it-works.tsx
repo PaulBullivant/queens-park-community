@@ -46,6 +46,10 @@ export default function HowItWorks(): React.JSX.Element {
                         street cleaning etc
                     </li>
                     <li>
+                        <strong>Queens Park Community Charity</strong><br />
+                        Discussions around our <a href="https://www.qpc.org.uk" target="_blank">Local Charity</a>.
+                    </li>
+                    <li>
                         <strong>Security, Safety & Crime</strong><br />
                         Discuss security issues, any local crime and keeping our community safe.
                     </li>
